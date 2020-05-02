@@ -1,10 +1,11 @@
 using System;
 using System.Net;
-using System.Net.Mail;
+using MailKit;
 using System.Security;
 using System.Threading.Tasks;
 using Driver.Models;
 using Driver.Service;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -12,12 +13,10 @@ namespace Driver.Controllers
 {
     public class Site : Controller
     {
-        private EmailAccount _emailAccount;
-
+        private EmailService _emailService;
         public Site()
         {
-            _emailAccount =
-                JsonConvert.DeserializeObject<EmailAccount>(System.IO.File.ReadAllText("SecretInfo/mailinfo.json"));
+            _emailService = new EmailService();
         }
         
         // GET
@@ -49,18 +48,14 @@ namespace Driver.Controllers
 
         private void SendMessage(Sender sender)
         {
-            SmtpClient smtp = new SmtpClient(_emailAccount.Smtp);
-            smtp.Port = 587;
-            smtp.UseDefaultCredentials = false;
-            smtp.EnableSsl = true;
-            smtp.Credentials = new NetworkCredential(_emailAccount.Email, _emailAccount.Password);
-            using (MailMessage mailMessage = new MailMessage())
+            try
             {
-                mailMessage.From = new MailAddress(_emailAccount.Email);
-                mailMessage.To.Add(sender.ForMail);
-                mailMessage.Subject = "Новая заявка с сайта";
-                mailMessage.Body = sender.ToString();
-                smtp.Send(mailMessage);
+                _emailService.SendEmailAsync(sender.ForMail, "Новая заявка с сайта", sender.ToString());
+            }
+            catch (Exception e)
+            {
+                Logger logger = new Logger();
+                logger.CreateLog(new FileLogger(), e.Message);
             }
         }
     }

@@ -32,6 +32,7 @@
           <e p="mailInfo.json" t="Include" />
         </e>
         <e p="Service" t="Include">
+          <e p="EmailService.cs" t="Include" />
           <e p="FileLogger.cs" t="Include" />
           <e p="ILogger.cs" t="Include" />
           <e p="Logger.cs" t="Include" />

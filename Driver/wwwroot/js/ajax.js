@@ -31,6 +31,15 @@ class Sender{
         this.forMail = forMail;
         this.name = name;
         this.phone = phone;
+        if(carName === ""){
+            carName = "Клиент не указал модель машины";
+        }
+        if(number === ""){
+            number = "Клиент не указал VIN-номер машины";
+        }
+        if(comment === ""){
+            comment = "Нет комментария";
+        }
         this.carName = carName;
         this.number = number;
         this.comment = comment;

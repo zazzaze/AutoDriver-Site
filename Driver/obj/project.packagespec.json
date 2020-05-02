@@ -29,6 +29,10 @@
   "frameworks": {
     "netcoreapp3.0": {
       "dependencies": {
+        "MailKit": {
+          "target": "Package",
+          "version": "[2.6.0, )"
+        },
         "Microsoft.jQuery.Unobtrusive.Ajax": {
           "target": "Package",
           "version": "[3.2.6, )"

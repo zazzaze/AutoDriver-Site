@@ -7,5 +7,7 @@ namespace Driver.Models
         public String Email { get; set; }
         public String Password { get; set; }
         public String Smtp { get; set; }
+        
+        public Int32 Port { get; set; }
     }
 }

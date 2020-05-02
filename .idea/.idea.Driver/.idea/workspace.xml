@@ -2,100 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f41c2c21-3072-44da-983a-b621ccd01007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Driver/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Models/EmailAccount.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Models/Sender.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Service/FileLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Service/ILogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Service/Logger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/Views/Site/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/1scroll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/222-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/2scroll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/3scroll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/bion_prado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/buyCard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/cash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/cell-tower.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/chemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/driver-logo-e1527517042907.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/engine_PNG25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/fff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/filters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/halva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/krepezh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/logo-sl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/masla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/mts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/podveska.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/pre-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/psd/1.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/psd/2.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/psd/3.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/psd/4.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/slider-a3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/test3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/test4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/mts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/trash/test4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/velcom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/мусор/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/мусор/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/мусор/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/мусор/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/Images/work icons/мусор/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/jquery/jquery.3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/blazy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/city.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/js/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/wwwroot/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/Service/EmailService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Driver/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Driver/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Driver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Driver/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Controllers/Site.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/Driver.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Driver.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Views/Home/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Views/Home/Privacy.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Models/EmailAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Models/EmailAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/Models/Sender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/Models/Sender.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/Debug/netcoreapp3.0/Driver.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/Debug/netcoreapp3.0/Driver.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/Debug/netcoreapp3.0/Driver.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/Debug/netcoreapp3.0/Driver.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/Driver.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Driver/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Driver/wwwroot/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/wwwroot/js/ajax.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Driver/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Driver/Models/Sender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6936A521-FED8-4DEB-8B14-A7F0DF001041/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Driver/Service/EmailService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Driver/Service/FileLogger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Driver/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/27E12D83-E341-49C3-B12F-5A4A1F126446/18/NetworkCredential.cs" root0="SKIP_HIGHLIGHTING" />
@@ -130,7 +51,6 @@
         <option value="$PROJECT_DIR$/Driver/Views/Site/sitePage.cshtml.cs" />
         <option value="$PROJECT_DIR$/Driver/Views/Site/sitePage.cshtml" />
         <option value="$PROJECT_DIR$/Driver/index.html" />
-        <option value="$PROJECT_DIR$/Driver/Models/Sender.cs" />
         <option value="$PROJECT_DIR$/Driver/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Driver/Driver.csproj" />
         <option value="$PROJECT_DIR$/Driver/Service/ILogger.cs" />
@@ -140,10 +60,12 @@
         <option value="$PROJECT_DIR$/Driver/Service/FileLogger.cs" />
         <option value="$PROJECT_DIR$/Driver/wwwroot/css/style.css" />
         <option value="$PROJECT_DIR$/Driver/Views/Site/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Driver/wwwroot/js/ajax.js" />
         <option value="$PROJECT_DIR$/Driver/Models/EmailAccount.cs" />
-        <option value="$PROJECT_DIR$/Driver/Controllers/Site.cs" />
         <option value="$PROJECT_DIR$/Driver/SecretInfo/mailInfo.json" />
+        <option value="$PROJECT_DIR$/Driver/Models/Sender.cs" />
+        <option value="$PROJECT_DIR$/Driver/wwwroot/js/ajax.js" />
+        <option value="$PROJECT_DIR$/Driver/Controllers/Site.cs" />
+        <option value="$PROJECT_DIR$/Driver/Service/EmailService.cs" />
       </list>
     </option>
   </component>
@@ -204,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588227430460</updated>
       <workItem from="1588227436479" duration="17304000" />
+      <workItem from="1588411253466" duration="2495000" />
     </task>
     <servers />
   </component>
@@ -215,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -226,27 +151,27 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="435" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588234429205" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1588406712123">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1588414300719">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588406712123" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588406626650" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1588406712122">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588414237862" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1588414300719" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1588414300694">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588406712122" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1588406626648" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1588406712121">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588414237861" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1588414300694" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1588414300689">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588406712121" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1588406626648" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1588406712122">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588414237860" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1588414300689" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1588414300717">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588406712122" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588414237861" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.23.1440.807" timestamp="1588231705581" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1588406626649" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1588414300717" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588406712126">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -346,65 +271,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Driver/Controllers/Site.cs</url>
-          <line>61</line>
-          <properties documentPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" initialLine="40">
-            <startOffsets>
-              <option value="1758" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1795" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Driver/Controllers/Site.cs</url>
-          <line>52</line>
-          <properties documentPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" initialLine="33">
-            <startOffsets>
-              <option value="1278" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1294" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Driver/Controllers/Site.cs</url>
-          <line>64</line>
+          <line>53</line>
           <properties documentPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" initialLine="43">
             <startOffsets>
-              <option value="1858" />
+              <option value="1444" />
             </startOffsets>
             <endOffsets>
-              <option value="1859" />
+              <option value="1445" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Driver/Controllers/Site.cs</url>
-          <line>18</line>
-          <properties documentPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" initialLine="18">
-            <startOffsets>
-              <option value="368" />
-            </startOffsets>
-            <endOffsets>
-              <option value="500" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Driver/Controllers/Site.cs</url>
-          <line>20</line>
+          <line>19</line>
           <properties documentPath="$PROJECT_DIR$/Driver/Controllers/Site.cs" initialLine="20">
             <startOffsets>
-              <option value="509" />
+              <option value="427" />
             </startOffsets>
             <endOffsets>
-              <option value="510" />
+              <option value="428" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
@@ -412,7 +298,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Driver/wwwroot/js/ajax.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

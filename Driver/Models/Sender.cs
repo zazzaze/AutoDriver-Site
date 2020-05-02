@@ -7,9 +7,9 @@ namespace Driver.Models
         public String ForMail { get; set; }
         public String Name { get; set; }
         public String Phone { get; set; }
-        public String CarName { get; set; }
-        public String Number { get; set; }
-        public String Comment { get; set; }
+        public String CarName { get; set; } = "Клиент не указал модель машины";
+        public String Number { get; set; } = "Клиент не указал VIN-номер машины";
+        public String Comment { get; set; } = "Нет комментария";
 
         public override string ToString()
         {
