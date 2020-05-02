@@ -7,11 +7,13 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="HomeController.cs" t="Include" />
+          <e p="Site.cs" t="Include" />
         </e>
         <e p="Driver.csproj" t="IncludeRecursive" />
+        <e p="logs.log" t="Include" />
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="Sender.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -25,27 +27,105 @@
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
         </e>
+        <e p="Service" t="Include">
+          <e p="FileLogger.cs" t="Include" />
+          <e p="ILogger.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
-          <e p="Home" t="Include">
-            <e p="Index.cshtml" t="Include" />
-            <e p="Privacy.cshtml" t="Include" />
-          </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
+          <e p="Site" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
         </e>
         <e p="wwwroot" t="Include">
+          <e p="animation.css" t="Include" />
           <e p="css" t="Include">
-            <e p="site.css" t="Include" />
+            <e p="style.css" t="Include" />
           </e>
           <e p="favicon.ico" t="Include" />
+          <e p="Images" t="Include">
+            <e p="1scroll.png" t="Include" />
+            <e p="222-small.jpg" t="Include" />
+            <e p="222.jpg" t="Include" />
+            <e p="2scroll.png" t="Include" />
+            <e p="3scroll.png" t="Include" />
+            <e p="bion_prado.png" t="Include" />
+            <e p="buyCard.png" t="Include" />
+            <e p="car.png" t="Include" />
+            <e p="cash.png" t="Include" />
+            <e p="cell-tower.png" t="Include" />
+            <e p="chemy.png" t="Include" />
+            <e p="driver-logo-e1527517042907.png" t="Include" />
+            <e p="engine_PNG25.png" t="Include" />
+            <e p="fff.jpg" t="Include" />
+            <e p="filters.png" t="Include" />
+            <e p="halva.png" t="Include" />
+            <e p="krepezh.png" t="Include" />
+            <e p="logo-sl1.jpg" t="Include" />
+            <e p="masla.png" t="Include" />
+            <e p="mts.png" t="Include" />
+            <e p="phone.png" t="Include" />
+            <e p="podveska.png" t="Include" />
+            <e p="pre-loader.gif" t="Include" />
+            <e p="psd" t="Include">
+              <e p="1.psd" t="Include" />
+              <e p="2.psd" t="Include" />
+              <e p="3.psd" t="Include" />
+              <e p="4.psd" t="Include" />
+            </e>
+            <e p="slider-a3.png" t="Include" />
+            <e p="sprite.png" t="Include" />
+            <e p="test1.jpg" t="Include" />
+            <e p="test2.jpg" t="Include" />
+            <e p="test3.jpg" t="Include" />
+            <e p="test4.jpg" t="Include" />
+            <e p="trash" t="Include">
+              <e p="2.jpg" t="Include" />
+              <e p="mts.png" t="Include" />
+              <e p="test1.jpg" t="Include" />
+              <e p="test11.jpg" t="Include" />
+              <e p="test2.jpg" t="Include" />
+              <e p="test22.jpg" t="Include" />
+              <e p="test3.jpg" t="Include" />
+              <e p="test4.jpg" t="Include" />
+            </e>
+            <e p="velcom.png" t="Include" />
+            <e p="work icons" t="Include">
+              <e p="1.png" t="Include" />
+              <e p="2.png" t="Include" />
+              <e p="3.png" t="Include" />
+              <e p="4.png" t="Include" />
+              <e p="5.png" t="Include" />
+              <e p="мусор" t="Include">
+                <e p="1.png" t="Include" />
+                <e p="2.png" t="Include" />
+                <e p="3.png" t="Include" />
+                <e p="4.png" t="Include" />
+                <e p="5.png" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="jquery" t="Include">
+            <e p="jquery.3.3.1.min.js" t="Include" />
+          </e>
           <e p="js" t="Include">
-            <e p="site.js" t="Include" />
+            <e p="ajax.js" t="Include" />
+            <e p="blazy.js" t="Include" />
+            <e p="city.js" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="menu.js" t="Include" />
+            <e p="preloader.js" t="Include" />
+            <e p="scroll.js" t="Include" />
+            <e p="slider.js" t="Include" />
+            <e p="wow.min.js" t="Include" />
           </e>
           <e p="lib" t="Include">
             <e p="bootstrap" t="Include">
@@ -100,6 +180,8 @@
               <e p="LICENSE.txt" t="Include" />
             </e>
           </e>
+          <e p="robots.txt" t="Include" />
+          <e p="sitemap.xml" t="Include" />
         </e>
       </e>
       <e p="Driver.sln" t="IncludeFlat" />
