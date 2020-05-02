@@ -1,48 +1,125 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Driver</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Driver</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+﻿<!DOCTYPE html> 
+<html lang="ru">
+	<head>
+		<title> Автозапчасти</title>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="Автозапчасти">
+		<meta content="keywords" content="автозапчасти, слуцк, дзержинск, старые дороги, Слуцк, Дзержинск, Старые Дороги, купить, запчасти, машина, машины, запчасти для машины Белоруссия, Белоруссия, купить запчасти, детали, машина, машины, автомобиль, автомобили, ремонт, ремонт машины, ремонт автомобиля, недорого, импортные, лада, мерседес, ниссан, тойота, ваз, бмв, toyota, nissan, mercedes, mercedes-benz, bmw, audi, ауди">
+		<link rel="stylesheet" href="~/css/style.css">
+		<link rel="stylesheet" href="~/animation.css">
+		<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+		<style>img[alt="www.000webhost.com"]{display:none}</style>
+	</head>
+	<body class="b-lazy" data-src-small="Images/222-small.jpg" data-src="Images/222.jpg">
+	<div class="loaderArea">
+		<div class="loading-window">
+			<div class="car">
+				<div class="strike"></div>
+				<div class="strike strike2"></div>
+				<div class="strike strike3"></div>
+				<div class="strike strike4"></div>
+				<div class="strike strike5"></div>
+				<div class="car-detail spoiler"></div>
+				<div class="car-detail back"></div>
+				<div class="car-detail center"></div>
+				<div class="car-detail center1"></div>
+				<div class="car-detail front"></div>
+				<div class="car-detail wheel"></div>
+				<div class="car-detail wheel wheel2"></div>
+			</div>
+		
+			<div class="text">
+				<span>Загрузка</span><span class = "dots">...</span>
+			</div>
+		</div>
+	</div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - Driver - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+		<div class="popup">
+			<div class="popup-card">
+				<button class="button-close" type="button">X</button>
+				<h2>Выберите ваш город</h2>
+				<ul>
+					<li><button class="query-button" type="button" data-name="Дзержинск" data-mail="autoakula@mail.ru" data-vk="https://vk.com/avtozapchastidriverdzerzhinsk">Дзержинск</button></li>
+					<li><button class="query-button" type="button" data-name="Слуцк" data-mail="driver.slutsk@yandex.by" data-vk="https://m.vk.com/club137761341">Слуцк</button></li>
+					<li><button class="query-button" type="button" data-name="Старые Дороги" data-mail="driver.stdorogi@yandex.by" data-vk="https://m.vk.com/club137761341">Старые Дороги</button></li>
+				</ul>
+			</div>
+		</div>
+
+		<header class="page-header" id="menu">
+			<div style="text-align: center;margin: auto 0 auto 8%;"> 
+				<img src="~/Images/driver-logo-e1527517042907.png" class="site-logo">
+				<div  class="info-city">
+					<button class="open-popup" type="button">Изменить город</button>
+				</div>
+			</div>
+				<div class="phone-button menu-open click" id="menu-open"><span></span></div>
+				<div class="allMenu all-menu-close">
+					<ul id="headerList" class="header-list">
+						<li><button class="click" id="close"><a href="#1">Главная</a></button></li>
+						<li><button class="click" id="close"><a href="#2">Наши товары</a></button></li>
+						<li><button class="click" id="close"><a href="#3">Контакты</a></button></li>
+						<li><button class="click" id="close"><a href="#4">Оставить заявку</a></button></li>
+					</ul>
+				</div>
+				
+		</header>
+	    <div class="container">
+	        <main role="main" class="pb-3">
+	            @RenderBody()
+	        </main>
+	    </div>
+
+		<!--Футер-->
+    	<footer>
+    		<div class="footer-container">
+    			<div class="footer-logo">
+    				<img src="~/Images/driver-logo-e1527517042907.png">
+    				<p><span>&#169</span>2019. Все права защищены.</P>
+    			</div>
+    			<div class="footer-info">
+    				<div class="social">
+    					<h4>Мы в соц. сетях</h4>
+    					<a class="vk" href="" target="_blank">Вконтакте</a>
+    				</div>
+    				<h4>Почта для вопросов и предложений:</h4>
+    				<a href="" class="question-mail"></a>
+    			</div>
+    	    </div>
+    	</footer>
+    	<script src="~/js/blazy.js"></script>
+    	<script>
+    		window.bLazy = new Blazy({
+    				success: function(element){
+    					console.log("Element loaded: ", element.nodeName);
+    				},
+    				breakpoints: [{
+    	        width: 1280 // max-width
+    		, src: 'data-src-small'
+    	    }]
+    	});
+    	</script>
+    	<script src="~/js/preloader.js"></script>
+    	<script src="~/js/city.js"></script>
+    	<script src="~/js/menu.js"></script>
+    	<script src="~/js/slider.js"></script>
+    	<script src="~/js/wow.min.js"></script>
+    	<script type="text/javascipt" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    	<script src="~/js/scroll.js"></script>
+    	<script>new WOW().init();</script>
+	<!-- Yandex.Metrika counter -->
+		<script type="text/javascript" >
+    		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    		m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    	
+    		ym(54242197, "init", {
+    			clickmap:true,
+    			trackLinks:true,
+    			accurateTrackBounce:true
+    		});
+    	</script>
+    	<noscript><div><img src="https://mc.yandex.ru/watch/54242197" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    	<!-- /Yandex.Metrika counter -->
 </body>
 </html>
