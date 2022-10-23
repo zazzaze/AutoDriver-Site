@@ -27,6 +27,7 @@ namespace Driver.Service
             };
             using (SmtpClient client = new SmtpClient())
             {
+                client.Timeout = 2000;
                 await client.ConnectAsync(_emailAccount.Smtp, _emailAccount.Port, false);
                 await client.AuthenticateAsync(_emailAccount.Email, _emailAccount.Password);
                 await client.SendAsync(message);
