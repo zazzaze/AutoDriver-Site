@@ -13,12 +13,9 @@ namespace Driver.Controllers
 {
     public class Site : Controller
     {
-        private EmailService _emailService;
-        public Site()
-        {
-            _emailService = new EmailService();
-        }
-        
+        private readonly EmailService _emailService = new();
+        private readonly TGService _tgService = new();
+
         // GET
         public ActionResult<String> Index()
         {
@@ -50,7 +47,7 @@ namespace Driver.Controllers
         {
             try
             {
-                _emailService.SendEmailAsync(sender.ForMail, "Новая заявка с сайта", sender.ToString());
+                _tgService.SendMessageAsync(sender);
             }
             catch (Exception e)
             {

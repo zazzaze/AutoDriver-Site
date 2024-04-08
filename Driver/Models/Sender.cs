@@ -1,8 +1,9 @@
 using System;
+using Driver.Service;
 
 namespace Driver.Models
 {
-    public class Sender
+    public class Sender: TGMessage
     {
         public String ForMail { get; set; }
         public String Name { get; set; }
@@ -11,10 +12,13 @@ namespace Driver.Models
         public String Number { get; set; } = "Клиент не указал VIN-номер машины";
         public String Comment { get; set; } = "Нет комментария";
 
-        public override string ToString()
-        {
-            return $"Имя: {Name}\n\rНомер телефона: {Phone}\n\rМодель машины: {CarName}\n\rVIN-номер: {Number}" +
-                   $"\n\rКомментарий к заявке: {Comment}";
-        }
+        string TGMessage.subject => "Новая заявка с сайта";
+        string TGMessage.senderInfoBody => $"""
+                                                  Имя: {Name}
+                                                  Номер телефона: {Phone}
+                                                  Модель машины: {CarName}
+                                                  VIN\-номер: {Number}
+                                                  Комментарий к заявке: {Comment}
+                                                  """;
     }
 }

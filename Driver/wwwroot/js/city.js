@@ -23,7 +23,7 @@ function changeCityandCookie(ct, ind){
         vk.href = ct.dataset.vk;
 
         popup.classList.add('popup-close');
-         setTimeout(function(){
+        setTimeout(function(){
             popup.style.display='none';
         },500);
     })

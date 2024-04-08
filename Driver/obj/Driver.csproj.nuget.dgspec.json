@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/egor/Desktop/рабочие проекты/Driver/Driver/Driver.csproj": {}
+    "/Users/egkeev/Desktop/my/AutoDriver-Site/Driver/Driver.csproj": {}
   },
   "projects": {
-    "/Users/egor/Desktop/рабочие проекты/Driver/Driver/Driver.csproj": {
+    "/Users/egkeev/Desktop/my/AutoDriver-Site/Driver/Driver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/egor/Desktop/рабочие проекты/Driver/Driver/Driver.csproj",
+        "projectUniqueName": "/Users/egkeev/Desktop/my/AutoDriver-Site/Driver/Driver.csproj",
         "projectName": "Driver",
-        "projectPath": "/Users/egor/Desktop/рабочие проекты/Driver/Driver/Driver.csproj",
-        "packagesPath": "/Users/egor/.nuget/packages/",
-        "outputPath": "/Users/egor/Desktop/рабочие проекты/Driver/Driver/obj/",
+        "projectPath": "/Users/egkeev/Desktop/my/AutoDriver-Site/Driver/Driver.csproj",
+        "packagesPath": "/Users/egkeev/.nuget/packages/",
+        "outputPath": "/Users/egkeev/Desktop/my/AutoDriver-Site/Driver/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/egor/.config/NuGet/NuGet.Config"
+          "/Users/egkeev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,14 +32,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MailKit": {
               "target": "Package",
-              "version": "[2.6.0, )"
+              "version": "[4.4.0, )"
             },
             "Microsoft.jQuery.Unobtrusive.Ajax": {
               "target": "Package",
@@ -49,7 +53,11 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.3, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0, )"
             }
           },
           "imports": [
@@ -58,10 +66,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-arm64",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +85,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-arm64": {
+          "#import": []
         }
       }
     }

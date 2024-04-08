@@ -8,12 +8,7 @@ namespace Driver.Service
 {
     public class EmailService
     {
-        private EmailAccount _emailAccount;
-        public EmailService()
-        {
-            _emailAccount =
-                JsonConvert.DeserializeObject<EmailAccount>(System.IO.File.ReadAllText("SecretInfo/mailinfo.json"));
-        }
+        private EmailAccount _emailAccount = JsonConvert.DeserializeObject<EmailAccount>(System.IO.File.ReadAllText("SecretInfo/mailinfo.json"));
 
         public async void SendEmailAsync(String to, String subject, String body)
         {

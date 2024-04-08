@@ -155,7 +155,7 @@
 			<p class="down">и мы вам перезвоним</p>
 			<form method="POST" class="feedback-form" id="form">
 				<div class="feedback-container">
-					<input type="hidden" id="forMail" name="forMail" required>
+					<input type="hidden" id="forMail" name="forMail" value="Дзержинск" required>
 					<input type="text" id="name" name="name" class="name" placeholder="Введите имя">
 					<input type="tel" id="phone" class="phone" name="phone" placeholder="+343 (29) 333-33-33">
 					<input type="text" id="car-name" class="car-name" name="textAuto" placeholder="Марка автомобиля">
@@ -173,124 +173,33 @@
 		
 		
 		<!--Как нас найти-->
-		<div class="map-block fadeInLeft wow" data-wow-duration="0.8s" data-wow-offset="150" id="3">
-			<button class="open-popup description-button" type="button">Выберите город</button>
-
-				<div class="city-description">
-					<div class="city-text">
-						<h3>Мы находимся</h3>
-						<p class="address" id="citySelected">г. Дзержинск ул. Советская, 1</p>
-						<div class="cityPhones">
-							<img src="~/Images/velcom.png">
-							<a href="tel:+375295717272">+375 29 571 72 72</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/mts.png">
-							<a href="tel:+375445717272">+375 44 571 72 72</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/cell-tower.png">
-							<a href="tel:80171690005">8 01716 90005</a>
-						</div>
-						<h4>Мы работаем:</h4>
-						<p id="work-time">Пн-Вс 9-20.</p>
-						<p class="eatTime">Без обеда, без выходных.</p>
-					</div>
-					<div class="map">
-						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Afb56e86f6924508dba2d44b5e5184fd3ed3d709db36ee4845a5caea32b52c085&amp"></iframe>
-					</div>
-				</div>
-
-				<div class="city-description" data-name="Слуцк">
-					<div class="city-text">
-						<h3>Мы находимся</h3>
-						<p class="address" id="citySelected">г. Слуцк ул. Ленина, 55</p>
-						<div class="cityPhones">
-							<img src="~/Images/mts.png">
-							<a href="tel:+375333892929">+375 33 389 29 29</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/velcom.png">
-							<a href="tel:+375293892929">+375 29 389 29 29</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/cell-tower.png">
-							<a href="tel:80179534545">8 01795 34545</a>
-						</div>	
-						<h4>Телефоны доставки:</h4>
-						<div class="cityPhones">
-							<img src="~/Images/velcom.png">
-							<a href="tel:+375293924545">+375 29 392 45 45</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/mts.png">
-							<a href="tel:+375333924545">+375 33 392 45 45</a>
-						</div>
-						<h4>Мы работаем:</h4>
-						<p id="work-time">Пн-Вс 8-20.</p>
-						<p class="eatTime">Без обеда, без выходных.</p>
-					</div>
-					<div class="map">
-						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad521da7d3b312484d63724eafdc37189f3f8f02b93b73343cda38124a2f76179&amp"></iframe>
-					</div>
-				</div>
-
-				<div class="city-description" data-name="Старые Дороги">
-					<div class="city-text">
-						<h3>Мы находимся</h3>
-						<p class="address" id="citySelected">г. Старые дороги ул. Калинина, 2г</p>
-						<div class="cityPhones">
-							<img src="~/Images/velcom.png">
-							<a href="tel:+375296692121">+375 29 669 21 21</a>
-						</div>
-						<div class="cityPhones">
-							<img src="~/Images/cell-tower.png">
-							<a href="tel:80179230303">8 01792 30303</a>
-						</div>
-						<h4>Мы работаем:</h4>
-						<p id="work-time">Пн-Вс 9-19.</p>
-						<p class="eatTime">Без обеда, без выходных.</p>
-					</div>
-					<div class="map">
-						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae0d5a7e787b1e3dfe0041ce67899bae003b62bc9518becdf97a1b7c68aefc973&amp"></iframe>
-					</div>
-				</div>
-				
-				<div class="city-description" data-name="Марьина горка">
-                	<div class="city-text">
-                		<h3>Мы находимся</h3>
-                		<p class="address" id="citySelected">Марьина горка, Будённого 18</p>
-                		<div class="cityPhones">
-                			<img src="~/Images/mts.png">
-                			<a href="tel:+375333892929">375-33-901-77-99</a>
-                		</div>
-                		<div class="cityPhones">
-                			<img src="~/Images/velcom.png">
-                			<a href="tel:+375293892929">+375 29 389 29 29</a>
-                		</div>
-                		<div class="cityPhones">
-                			<img src="~/Images/cell-tower.png">
-                			<a href="tel:80179534545">8 01795 34545</a>
-                		</div>	
-                		<h4>Телефоны доставки:</h4>
-                		<div class="cityPhones">
-                			<img src="~/Images/velcom.png">
-                			<a href="tel:+375293924545">+375 29 392 45 45</a>
-                		</div>
-                		<div class="cityPhones">
-                			<img src="~/Images/mts.png">
-                			<a href="tel:+375333924545">+375 33 392 45 45</a>
-                		</div>
-                		<h4>Мы работаем:</h4>
-                		<p id="work-time">Пн-Вс 8-20.</p>
-                		<p class="eatTime">Без обеда, без выходных.</p>
-                	</div>
-                	<div class="map">
-                		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad521da7d3b312484d63724eafdc37189f3f8f02b93b73343cda38124a2f76179&amp"></iframe>
-                	</div>
-                </div>
-				<script src="~/jquery/jquery.3.3.1.min.js"></script>
-				<script src="~/js/ajax.js"></script>
-						
-
+<div class="map-block fadeInLeft wow" data-wow-duration="0.8s" data-wow-offset="150" id="3">
+	<div class="city-description">
+		<div class="city-text">
+			<h3>Мы находимся</h3>
+			<p class="address" id="citySelected">г. Дзержинск ул. Советская, 1</p>
+			<div class="cityPhones">
+				<img src="~/Images/velcom.png">
+				<a href="tel:+375295717272">+375 29 571 72 72</a>
+			</div>
+			<div class="cityPhones">
+				<img src="~/Images/mts.png">
+				<a href="tel:+375445717272">+375 44 571 72 72</a>
+			</div>
+			<div class="cityPhones">
+				<img src="~/Images/cell-tower.png">
+				<a href="tel:80171690005">8 01716 90005</a>
+			</div>
+			<h4>Мы работаем:</h4>
+			<p id="work-time">Пн-Вс 9-20.</p>
+			<p class="eatTime">Без обеда, без выходных.</p>
 		</div>
+		<div class="map">
+			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Afb56e86f6924508dba2d44b5e5184fd3ed3d709db36ee4845a5caea32b52c085&amp"></iframe>
+		</div>
+	</div>
+
+				
+	<script src="~/jquery/jquery.3.3.1.min.js"></script>
+	<script src="~/js/ajax.js"></script>
+</div>

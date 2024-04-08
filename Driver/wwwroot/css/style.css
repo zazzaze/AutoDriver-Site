@@ -1325,7 +1325,7 @@ width: 4rem;
 }
 
 .city-description{
-	display: none;
+	display: flex;
 	justify-content: space-between;
 	width: 80%;
 }
